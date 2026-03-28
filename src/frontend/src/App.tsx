@@ -19,7 +19,7 @@ import {
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useState } from "react";
 
-const WA_BASE = "https://wa.me/919876543210?text=";
+const WA_BASE = "https://wa.me/917003566542?text=";
 const WA_GENERAL =
   WA_BASE +
   encodeURIComponent(
@@ -58,7 +58,7 @@ const courses = [
     icon: "🏥",
     description:
       "Comprehensive preparation for the Joint Entrance exam for B.Sc Nursing programs across top institutions in West Bengal. Covers all subjects with our proven methodology.",
-    duration: "6–12 Months",
+    duration: "11–12 Months",
     highlights: [
       "Complete Syllabus Coverage",
       "Mock Tests & Practice Papers",
@@ -75,7 +75,7 @@ const courses = [
     icon: "🎓",
     description:
       "Advanced coaching for M.Sc Nursing entrance, designed for nursing graduates aiming for post-graduate excellence and specialization in top nursing colleges.",
-    duration: "4–8 Months",
+    duration: "11–12 Months",
     highlights: [
       "Advanced Subject Material",
       "Research Methodology",
@@ -225,11 +225,11 @@ export default function App() {
           </span>
           <div className="flex items-center gap-4">
             <a
-              href="tel:+919876543210"
+              href="tel:+917003566542"
               className="flex items-center gap-1 hover:text-[#D6B04A] transition-colors"
             >
               <Phone className="w-3 h-3" />
-              <span>+91 98765 43210</span>
+              <span>+91 70035 66542</span>
             </a>
             <span className="text-white/40">|</span>
             <a
@@ -738,10 +738,10 @@ export default function App() {
                 <li className="flex items-start gap-2">
                   <Phone className="w-4 h-4 text-[#D6B04A] mt-0.5 flex-shrink-0" />
                   <a
-                    href="tel:+919876543210"
+                    href="tel:+917003566542"
                     className="text-white/60 hover:text-white text-sm transition-colors"
                   >
-                    +91 98765 43210
+                    +91 70035 66542
                   </a>
                 </li>
                 <li className="flex items-start gap-2">

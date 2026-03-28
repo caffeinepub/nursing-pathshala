@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.625rem;
+
+    /* Nursing Pathshala Brand Tokens */
+    /* Navy primary: #0E4A73 */
+    --np-navy: 0.37 0.095 237;
+    /* Dark navy: #0B3E60 */
+    --np-navy-dark: 0.32 0.088 238;
+    /* Darkest navy footer: #082F4A */
+    --np-navy-footer: 0.25 0.075 238;
+    /* Gold accent: #D6B04A */
+    --np-gold: 0.77 0.105 82;
+    /* Gold hover: #E0B94E */
+    --np-gold-hover: 0.79 0.11 82;
+    /* Light blue section: #EAF4FB */
+    --np-light-blue: 0.965 0.018 220;
+    /* Heading dark: #0B2233 */
+    --np-heading: 0.2 0.058 240;
+    /* Muted gray: #5E6B75 */
+    --np-muted: 0.55 0.018 230;
+    /* WhatsApp green: #25D366 */
+    --np-whatsapp: 0.75 0.17 155;
+
+    /* Shadcn system tokens */
+    --background: 1 0 0;
+    --foreground: 0.2 0.058 240;
+    --card: 1 0 0;
+    --card-foreground: 0.2 0.058 240;
+    --popover: 1 0 0;
+    --popover-foreground: 0.2 0.058 240;
+    --primary: 0.37 0.095 237;
+    --primary-foreground: 1 0 0;
+    --secondary: 0.965 0.018 220;
+    --secondary-foreground: 0.37 0.095 237;
+    --muted: 0.96 0.01 220;
+    --muted-foreground: 0.55 0.018 230;
+    --accent: 0.77 0.105 82;
+    --accent-foreground: 0.2 0.058 240;
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 0.985 0 0;
+    --border: 0.91 0.02 220;
+    --input: 0.91 0.02 220;
+    --ring: 0.37 0.095 237;
+    --chart-1: 0.646 0.222 41.116;
+    --chart-2: 0.6 0.118 184.704;
+    --chart-3: 0.398 0.07 227.392;
+    --chart-4: 0.828 0.189 84.429;
+    --chart-5: 0.769 0.188 70.08;
+    --sidebar: 0.985 0 0;
+    --sidebar-foreground: 0.145 0 0;
+    --sidebar-primary: 0.205 0 0;
+    --sidebar-primary-foreground: 0.985 0 0;
+    --sidebar-accent: 0.97 0 0;
+    --sidebar-accent-foreground: 0.205 0 0;
+    --sidebar-border: 0.922 0 0;
+    --sidebar-ring: 0.708 0 0;
+  }
+
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Poppins", sans-serif;
+  }
+}
